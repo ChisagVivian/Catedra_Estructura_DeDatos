@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de Datos - Unidades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #1e3d59;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #2a628f;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #17426b;
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1e3d59;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1e3d59;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Asignatura: Estructura de Datos</h1>
+        <p>Basado en el Silabus Oficial de la ESPOCH</p>
+    </header>
+
+    <nav>
+        <a href="#unidad1">Unidad 1</a>
+        <a href="#unidad2">Unidad 2</a>
+        <a href="#unidad3">Unidad 3</a>
+        <a href="#unidad4">Unidad 4</a>
+    </nav>
+
+    <main>
+        <section id="unidad1">
+            <h2>Unidad 1: Fundamentos e Introduccion a las Estructuras de Datos</h2>
+            <ul>
+                <li>Introduccion, historia, caracteristicas, ventajas y desventajas</li>
+                <li>Tipos de datos: primitivos, compuestos, agregados y abstractos</li>
+                <li>Datos compuestos: vectores, matrices y registros</li>
+                <li>Fundamentos de algoritmia y representacion de algoritmos</li>
+            </ul>
+        </section>
+
+        <section id="unidad2">
+            <h2>Unidad 2: Estructuras de Datos Lineales</h2>
+            <ul>
+                <li><strong>Pilas (Stack):</strong> concepto, operaciones, aplicaciones</li>
+                <li><strong>Colas (Queue):</strong> tipos, representacion, operaciones, aplicaciones</li>
+                <li><strong>Listas (List):</strong> nodos, tipos, operaciones, aplicaciones</li>
+            </ul>
+        </section>
+
+        <section id="unidad3">
+            <h2>Unidad 3: Estructuras de Datos No Lineales</h2>
+            <ul>
+                <li>Visualizacion de algoritmos</li>
+                <li><strong>Arboles:</strong> definicion, representacion, recorrido, metodos</li>
+                <li><strong>Grafos:</strong> definicion, tipos, propiedades y representaciones</li>
+            </ul>
+        </section>
+
+        <section id="unidad4">
+            <h2>Unidad 4: Busqueda y Ordenamiento</h2>
+            <ul>
+                <li>Analisis de algoritmos: complejidad temporal y espacial (Big O)</li>
+                <li>Metodos de ordenamiento: burbuja, quicksort, mergesort</li>
+                <li>Metodos de busqueda: secuencial, binaria y hash</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>a 2025 - Escuela Superior Politecnica de Chimborazo | Asignatura: Estructura de Datos</p>
+    </footer>
+</body>
+</html>
